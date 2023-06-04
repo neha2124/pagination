@@ -1,0 +1,42 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin: 20px;
+}
+.card {
+  height: 40vh;
+  width: 30vw;
+  margin: 10px;
+  padding-bottom: 10px;
+  /* border:1px solid black; */
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+}
+.card img {
+  height: 80%;
+  width: 100%;
+  object-fit: cover;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+.pagination span {
+  border: 1px solid black;
+  padding: 20px;
+  /* margin-top:10px; */
+  cursor: pointer;
+}
+.selected {
+  background-color: gainsboro;
+}
+.disable {
+  display: none;
+}
